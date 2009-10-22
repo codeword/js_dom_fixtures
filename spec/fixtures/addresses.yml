@@ -1,0 +1,25 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+for_jblow1:
+  user: jblow
+  street1: 123 Main St
+  street2:
+  city: San Francisco
+  state: CA
+  zipcode: 94131
+
+for_jblow2:
+  user: jblow
+  street1: 371 Market St
+  street2: c/o Pivotal Labs
+  city: San Francisco
+  state: CA
+  zipcode: 94103
+
+two:
+  user: 
+  street1: MyString
+  street2: MyString
+  city: MyString
+  state: MyString
+  zipcode: MyString
