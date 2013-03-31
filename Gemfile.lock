@@ -1,3 +1,11 @@
+GIT
+  remote: git://github.com/codeword/jasmine-fixtures.git
+  revision: f4015681cb0eed7dca237cbd6bb17310e98bca80
+  specs:
+    jasmine-fixtures (0.1.7)
+      jasmine (>= 1.0.0)
+      nokogiri (>= 1.4.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -25,6 +33,7 @@ GEM
     json (1.7.7)
     multi_json (1.7.2)
     mysql (2.9.1)
+    nokogiri (1.5.9)
     rack (1.1.6)
     rails (2.3.18)
       actionmailer (= 2.3.18)
@@ -55,6 +64,7 @@ PLATFORMS
 
 DEPENDENCIES
   jasmine
+  jasmine-fixtures!
   mysql
   rails (= 2.3.18)
   rdoc
