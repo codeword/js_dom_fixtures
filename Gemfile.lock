@@ -1,3 +1,11 @@
+GIT
+  remote: git://github.com/codeword/jasmine-fixtures.git
+  revision: f4015681cb0eed7dca237cbd6bb17310e98bca80
+  specs:
+    jasmine-fixtures (0.1.7)
+      jasmine (>= 1.0.0)
+      nokogiri (>= 1.4.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -63,6 +71,7 @@ GEM
       treetop (~> 1.4.8)
     mime-types (1.22)
     multi_json (1.7.2)
+    nokogiri (1.5.9)
     polyglot (0.3.3)
     rack (1.4.5)
     rack-cache (1.2)
@@ -138,6 +147,7 @@ PLATFORMS
 DEPENDENCIES
   coffee-rails (~> 3.2.1)
   jasmine
+  jasmine-fixtures!
   jquery-rails
   rails (= 3.2.13)
   rspec-rails

@@ -23,6 +23,7 @@ end
 group :development, :test do
   gem 'rspec-rails'
   gem 'jasmine'
+  gem 'jasmine-fixtures', :git => 'git://github.com/codeword/jasmine-fixtures.git'
 end
 
 gem 'jquery-rails'
